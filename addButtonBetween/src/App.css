@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.content {
+  display: flex;
+}
+
+.cell-click {
+  display: flex;
+}
+
+.cell {
+  padding: 4rem;
+  border: 1px solid white;
+  border-radius: 1.5rem;
+}
+
+.cell input {
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  background: none;
+  color: white;
+  border: 1px dashed slategray;
+}
+
+.clicker {
+  width: 20px;
+  height: 100%;
+
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: black;
+}
+
+.clicker:hover {
+  background-color: #0f0;
+  cursor: pointer;
+}
